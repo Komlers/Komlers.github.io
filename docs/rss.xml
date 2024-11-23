@@ -1,5 +1,12 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>DE's Blogs</title><link>https://Komlers.github.io</link><description>New Blogs</description><copyright>DE's Blogs</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://github.githubassets.com/favicons/favicon.svg</url><title>avatar</title><link>https://Komlers.github.io</link></image><lastBuildDate>Sat, 23 Nov 2024 07:54:42 +0000</lastBuildDate><managingEditor>DE's Blogs</managingEditor><ttl>60</ttl><webMaster>DE's Blogs</webMaster><item><title>(旧)关于我的B站更新频率与联系方式</title><link>https://Komlers.github.io/post/%28-jiu-%29-guan-yu-wo-de-B-zhan-geng-xin-pin-lv-yu-lian-xi-fang-shi.html</link><description>### To My Fans:&#13;
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>DE's Blogs</title><link>https://Komlers.github.io</link><description>New Blogs</description><copyright>DE's Blogs</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://github.githubassets.com/favicons/favicon.svg</url><title>avatar</title><link>https://Komlers.github.io</link></image><lastBuildDate>Sat, 23 Nov 2024 11:53:06 +0000</lastBuildDate><managingEditor>DE's Blogs</managingEditor><ttl>60</ttl><webMaster>DE's Blogs</webMaster><item><title>网站已更新</title><link>https://Komlers.github.io/post/wang-zhan-yi-geng-xin.html</link><description>网站已更新&#13;
+​(修复了部分英文翻译问题)&#13;
+​(新增下载站和新博客)&#13;
+​(新增板块分类配色)&#13;
+​(修复导航栏显示问题)&#13;
+网址：[www.devan.us.kg](url)&#13;
+![Screenshot_20241123_182423_mark via](https://github.com/user-attachments/assets/822a08c0-6b43-4120-920e-f6d02fba9925)&#13;
+。</description><guid isPermaLink="true">https://Komlers.github.io/post/wang-zhan-yi-geng-xin.html</guid><pubDate>Sat, 23 Nov 2024 11:52:32 +0000</pubDate></item><item><title>(旧)关于我的B站更新频率与联系方式</title><link>https://Komlers.github.io/post/%28-jiu-%29-guan-yu-wo-de-B-zhan-geng-xin-pin-lv-yu-lian-xi-fang-shi.html</link><description>### To My Fans:&#13;
 以后直到寒假我不会出一些时间成本很长的作品了，因为我们现在初三的学习越来越紧张了，到寒假我才能有更多的时间。</description><guid isPermaLink="true">https://Komlers.github.io/post/%28-jiu-%29-guan-yu-wo-de-B-zhan-geng-xin-pin-lv-yu-lian-xi-fang-shi.html</guid><pubDate>Sat, 23 Nov 2024 07:46:24 +0000</pubDate></item><item><title>(旧)神秘猜数字小游戏v2.0发布</title><link>https://Komlers.github.io/post/%28-jiu-%29-shen-mi-cai-shu-zi-xiao-you-xi-v2.0-fa-bu.html</link><description>### 神秘猜数字小游戏v2.0发布&#13;
 演示视频：&#13;
 &gt; [【Python】神秘猜数字小游戏v2.0！(项目演示+获取)](https://www.bilibili.com/video/BV1pCDrYpEGx)&#13;

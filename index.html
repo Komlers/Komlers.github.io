@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<!--神秘网页这不神奇吗-->
+<!--使用源码请告知我，谢谢-->
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+        <meta name="description" content="这里是Dan_Evan的起始页，挂载至Github Pages，您可以将此网址设置为您的浏览器的起始页，亦或是前往本仓库下载Releases，访问速度会更快！本起始页采用纯前端技术，使用HTML5+CSS3+JavaScript编写，可以适配市面上所有主流浏览器。" />
+        <meta name="keywords" content="Dan_Evan,ElofHew,神秘网站,开源项目,GitHub,开源,技术,起始页,前端" />
+        <meta name="author" content="Dan_Evan" />
+        <meta name="robots" content="index,follow" />
+        <link rel="icon" href="favicon.ico" type="image/x-icon" />
+        <link type="text/css" href="style.css" rel="stylesheet" />
+        <title>Dan_Evan's Start Page</title>
+    </head>
+    <body>
+        <div class="container">
+            <div class="float-left">
+                <div class="start">
+                    <p><b>Dan_Evan's Start Page</b></p>
+                </div>
+                <div class="header-prt">
+                    <div class="header">
+                        <div class="header-icons">
+                            <a href="https://elofhew.github.io/" target="_blank"><img src="icon/main.svg" alt="logo" width="30" /></a>
+                            <a href="https://elofhew.github.io/Blogs/" target="_blank"><img src="icon/blog.svg" alt="blog" width="30" /></a>
+                            <a href="https://space.bilibili.com/642688364/" target="_blank"><img src="icon/bilibili.svg" alt="bilibili" width="30" /></a>
+                            <a href="https://qm.qq.com/q/BPdpfotZgQ" target="_blank"><img src="icon/qq1.svg" alt="home" width="30" /></a>
+                        </div>
+                    </div>
+                </div>
+                <!--div line-->
+                <div class="tools-prt">
+                    <div class="tools">
+                        <h2>Welcome</h2>
+                        <div id="time" class="dttm">当前时间：<noscript style="color:red">(请开启JavaScript)</noscript></div>
+                        <script src="js/time.js"></script>
+                        <div id="date" class="dttm">今天是：<noscript style="color:red">(请开启JavaScript)</noscript></div>
+                        <script src="js/date.js"></script>
+                        <div>
+                            <p id="hitokoto" class="words">
+                                <a href="#" id="hitokoto_text">正在从 一言服务器 获取中...<noscript style="color:red">(请开启JavaScript)</noscript></a>
+                            </p>
+                            <script src="js/hitokoto.js"></script>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--div line-->
+            <div class="float-right">
+                <div class="info-prt">
+                    <div class="info">
+                        <h2>起始页介绍</h2>
+                        <ul>
+                            <li><b>使用语言：</b><br />HTML5+CSS3+JavaScript</li>
+                            <li><b>编写工具：</b><br />Visual Studio Code</li>
+                            <li><b>开源协议：</b><br />MIT License</li>
+                            <li><b>作者：</b><br />Dan_Evan</li>
+                            <li><b>更新时间：</b><br />2024年12月28日</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--div line-->
+        <div class="center-container">
+            <div class="title">
+                <h1>搜索一下~</h1>
+            </div>
+            <!--div line-->
+            <div class="search">
+                <div class="search-container">
+                    <select class="search-select" id="searchSelect">
+                        <option value="https://www.baidu.com/s?wd=">百度</option>
+                        <option value="https://www.bing.com/search?q=">必应</option>
+                        <option value="https://www.sogou.com/web?query=">搜狗</option>
+                        <option value="https://www.so.com/s?q=">360搜索</option>
+                        <option value="https://www.google.com/search?q=">谷歌</option>
+                        <option value="https://www.duckduckgo.com/?q=">DuckDuckGo</option>
+                        <option value="https://www.wikipedia.org/w/index.php?search=">维基百科</option>
+                        <option value="https://www.yandex.com/search/?text=">YanDex</option>
+                    </select>
+                    <div class="search-box">
+                        <input type="text" class="search-input" placeholder="搜你所想……" id="searchInput" onkeydown="handleEnter(event)" />
+                    </div>
+                    <button class="search-button" onclick="search()">
+                        <img src="icon/search.svg" width="20" height="20">
+                    </button>
+                </div>
+            </div> 
+            <!--div line-->
+            <div class="main">
+                <div class="frdlnk-container">
+                    <!--1-->
+                    <div class="frdlnkdivs">
+                        <img src="icon/bilibili.svg" alt="哔哩哔哩" /><br />
+                        <a href="https://www.bilibili.com/" target="_blank">哔哩哔哩</a>
+                    </div>
+                    <!--2-->
+                    <div class="frdlnkdivs">
+                        <img src="icon/weibo.svg" alt="微博" /><br />
+                        <a href="https://www.weibo.com/" target="_blank">微博</a>
+                    </div>
+                    <!--3-->
+                    <div class="frdlnkdivs">
+                        <img src="icon/github.svg" alt="GitHub" /><br />
+                        <a href="https://github.com/" target="_blank">GitHub</a>
+                    </div>
+                    <!--4-->
+                    <div class="frdlnkdivs">
+                        <img src="icon/4399.svg" alt="4399小游戏" /><br />
+                        <a href="https://www.4399.com/" target="_blank">4399小游戏</a>
+                    </div>
+                    <!--5-->
+                    <div class="frdlnkdivs">
+                        <img src="icon/minecraft.svg" alt="Minecraft" /><br />
+                        <a href="https://www.minecraft.net/" target="_blank">Minecraft</a>
+                    </div>
+                    <!--6-->
+                    <div class="frdlnkdivs">
+                        <img src="icon/steam.svg" alt="Steam" /><br />
+                        <a href="https://store.steampowered.com/" target="_blank">Steam</a>
+                    </div>
+                    <!--7-->
+                    <div class="frdlnkdivs">
+                        <img src="icon/bing.svg" alt="必应翻译" /><br />
+                        <a href="https://www.bing.com/translator/" target="_blank">必应翻译</a>
+                    </div>
+                    <!--8-->
+                    <div class="frdlnkdivs">
+                        <img src="icon/tieba.svg" alt="百度贴吧" /><br />
+                        <a href="https://tieba.baidu.com/" target="_blank">百度贴吧</a>
+                    </div>
+                    <!--9-->
+                    <div class="frdlnkdivs">
+                        <img src="icon/zhihu.svg" alt="知乎" /><br />
+                        <a href="https://www.zhihu.com/" target="_blank">知乎</a>
+                    </div>
+                    <!--10-->
+                    <div class="frdlnkdivs">
+                        <img src="icon/coolapk.svg" alt="酷安" /><br />
+                        <a href="https://www.coolapk.com/" target="_blank">酷安</a>
+                    </div>
+                    <!--11-->
+                    <div class="frdlnkdivs">
+                        <img src="img/icon.png" alt="Dan_Evan的主站" /><br />
+                        <a href="https://www.drevan.xyz/" target="_blank">Dan_Evan的主站</a>
+                    </div>
+                    <!--12-->
+                    <div class="frdlnkdivs">
+                        <img src="icon/music163.svg" alt="网易云音乐" /><br />
+                        <a href="https://music.163.com/" target="_blank">网易云音乐</a>
+                    </div>
+                </div>
+                <hr />
+                <div class="footer">
+                    <p>
+                        本网站由<a href="https://github.com/ElofHew" target="_blank">ElofHew</a>使用<a href="https://pages.github.com/" target="_blank">GitHub Pages</a>搭建<br />
+                        <a href="https://icp.gov.moe/?keyword=20240312" target="_blank">萌ICP备20240312号</a><br />
+                        <a href="https://icp.cab/beian/ICP-2024110061.html" target="_blank">菜包2024110061号</a><br />
+                        <a href="http://icp.im/beian/ICP-2024110091.html" target="_blank">酱2024110091号</a><br />
+                        © Dan_Evan 2024 All rights reserved.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

@@ -1,0 +1,357 @@
+/* This file is used to style the Start Page */
+
+@font-face {
+    font-family: "MIUI-Regular";
+    src: url(fonts/Miui-Regular.ttf);
+}
+
+@font-face {
+    font-family: "MIUI-Light";
+    src: url(fonts/Miui-Light.ttf);
+}
+
+@font-face {
+    font-family: "MIUI-Bold";
+    src: url(fonts/Miui-Bold.ttf);
+}
+
+body {
+    font-family: "MIUI-Regular";
+    margin: 0;
+    padding: 0;
+    background-color: rgb(65, 65, 65);
+    background-image: url(img/bg1.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+@media (max-width: 720px) {
+    body {
+        font-family: "MIUI-Regular";
+        margin: 0;
+        padding: 0;
+        background-color: rgb(65, 65, 65);
+        background-image: url(img/bg2.jpg);
+        background-size: cover;
+        background-position: center;
+        background-attachment: fixed;
+    }
+}
+
+p {
+    font-family: "MIUI-Regular";
+}
+
+i {
+    font-family: "MIUI-Light";
+}
+
+b, h1, h2, h3, h4, h5, h6 {
+    font-family: "MIUI-Bold";
+}
+
+hr {
+    background-color: #448AFF;
+    max-width: 350px;
+    height: 2px;
+    border: none;
+}
+
+details {
+    margin-left: 10px;
+}
+
+details p {
+    color: black;
+    margin: 0;
+}
+
+summary {
+    outline: none;
+}
+
+a, a:visited {
+    color: #5394c2;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #406ce4;
+    text-decoration: underline;
+}
+
+.start {
+    font-size: 20px;
+    padding: 10px;
+    color: white;
+    text-align: center;
+}
+
+.container {
+    width: 100%;
+    max-width: 800px; /* 根据需要调整最大宽度 */
+    margin: 20px auto; /* 使.container整体居中 */
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.float-left {
+    flex: 1;
+    margin: 10px;
+    max-width: 300px; /* 根据需要调整最大宽度 */
+}
+
+.float-right {
+    flex: 1;
+    margin: 10px;
+    max-width: 300px; /* 根据需要调整最大宽度 */
+}
+
+.header {
+    padding: 5px;
+    text-align: center;
+}
+
+.header-prt {
+    margin: 5px auto;
+    width: 100%;
+    max-width: 260px;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.header-icons a {
+    margin: 0 5px;
+    display: inline-block;
+    transition: transform 0.5s;
+}
+
+.header-icons a:hover {
+    transform: scale(1.1);
+}
+
+.header-icons a img {
+    background-color: rgba(255, 255, 255, 0.7);
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+    padding: 5px;
+}
+
+.tools-prt {
+    background-color: rgba(255, 255, 255, 0.7);
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+    margin: 5px auto;
+    width: 100%;
+    max-width: 260px;
+    box-sizing: border-box;
+    text-align: left;
+}
+
+.tools {
+    text-align: left;
+    padding: 10px;
+}
+
+.tools h2 {
+    margin: 5px 0;
+    color: blueviolet;
+    font-size: 30px;
+}
+
+.info-prt {
+    background-color: rgba(255, 255, 255, 0.7);
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+    margin: 5px auto;
+    width: 100%;
+    max-width: 260px;
+    box-sizing: border-box;
+    text-align: left;
+}
+
+.info {
+    text-align: left;
+    padding: 10px;
+}
+
+.info h2 {
+    margin: 5px 0;
+    color: rgb(197, 76, 168);
+    font-size: 30px;
+    text-align: left;
+}
+
+.info ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.info ul li {
+    margin: 7px 0;
+}
+
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: rgb(121, 164, 99);
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: bold;
+    transition: background-color 0.3s;
+    margin: 5px;
+}
+
+.button:hover {
+    background-color: rgb(228, 191, 142);
+}
+
+.btprt a, .btprt a:hover, .btprt a:visited {
+    color: white !important;
+    text-decoration: none !important;
+    font-weight: bold !important;
+}
+
+.title {
+    text-align: center;
+    color: blanchedalmond;
+    font-size: 20px;
+}
+
+.search {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px auto;
+    width: 100%;
+    max-width: 600px; /* 根据需要调整最大宽度 */
+    box-sizing: border-box;
+}
+
+.search-container {
+    display: flex;
+    margin: 20px 0;
+    background-color: rgba(255, 255, 255, 0.7);
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+    padding: 5px;
+    width: 100%;
+    max-width: 600px; /* 根据需要调整最大宽度 */
+    box-sizing: border-box;
+}
+
+.search-box {
+    display: flex;
+    align-items: center;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    overflow: hidden;
+    background-color: #fff;
+    flex: 1;
+    margin-right: 10px;
+}
+
+.search-select {
+    margin: 5px 10px;
+    width: 60px;
+    background-color: bisque;
+    border-radius: 20px;
+    height: 35px;
+    text-align: center;
+    border: none;
+}
+
+.search-input {
+    border: none;
+    padding: 10px;
+    outline: none;
+    width: 100%;
+    flex: 1;
+    font-family: "MIUI-Regular";
+}
+
+.search-button {
+    background-color: #0078D7;
+    color: white;
+    margin: 5px 10px;
+    border-radius: 15px;
+    height: 35px;
+    width: 40px;
+    border: none; /* 修正边框样式 */
+}
+
+.search-button:hover {
+    background-color: #005a9e;
+}
+
+.frdlnk-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 20px auto;
+    width: 100%;
+    max-width: 800px; /* 根据需要调整最大宽度 */
+    box-sizing: border-box;
+}
+
+.frdlnkdivs {
+    background-color: rgba(255, 255, 255, 0.4);
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 100%;
+    max-width: 240px; /* 根据需要调整最大宽度 */
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.frdlnkdivs img {
+    width: 60px;
+    margin-bottom: 5px;
+}
+
+.frdlnkdivs a {
+    color: rgb(219, 224, 184) !important;
+    text-decoration: none !important;
+}
+
+.dttm {
+    color: chocolate;
+    font-size: 20px;
+    margin: 3px 0;
+    padding: 5px;
+    background-color: #f2f2f2;
+    display: inline-block;
+    text-align: left;
+    border-radius: 10px;
+}
+
+.words {
+    color: #448AFF;
+    font-size: 12px;
+    margin: 3px 0;
+    padding: 5px;
+    display: inline-block;
+    text-align: left;
+    border-radius: 10px;
+    background-color: rgb(209, 243, 255);
+}
+
+.words a, .words a:hover, .words a:visited {
+    display: block;
+    width: 100%;
+    color: coral;
+    text-decoration: none;
+}
+
+.footer {
+    text-align: center;
+    color: white;
+}

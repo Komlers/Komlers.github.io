@@ -106,6 +106,14 @@ a:hover {
     padding: 10px 0;
 }
 
+.lang {
+    text-align: right;
+    margin-right: 10px;
+}
+.lang a,.lang a:visited,.lang a:hover,.lang a:active {
+    color:burlywood;
+    text-decoration: none;
+}
 
 .container {
     width: 100%;

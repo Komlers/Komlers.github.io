@@ -5,9 +5,8 @@ async function fetchHitokoto() {
         const response = await fetch('https://api.quotable.io/quotes/random');
         const data = await response.json();
         
-        const content = document.querySelector('#hitokoto_text');
-        content.href = `https://hitokoto.cn/${data._id}`;
-        content.innerText = data.content;
+        const hitokoto = document.querySelector('#hitokoto_text');
+        hitokoto.innerText = data.content;
         
     } catch (error) {
         console.error(error);
